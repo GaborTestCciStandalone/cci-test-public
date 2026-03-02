@@ -1,0 +1,14 @@
+version: 2.1
+
+jobs:
+  hello-word:
+    docker:
+      - image: cimg/node:25.7.0 # the primary container, where your job's commands are run
+    steps:
+      - checkout # check out the code in the project directory
+      - run: echo "hell there" # run the `echo` command
+
+workflows:
+  test-workflow:
+    jobs:
+      - hello-world
