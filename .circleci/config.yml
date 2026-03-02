@@ -1,7 +1,7 @@
 version: 2.1
 
 jobs:
-  hello-word2:
+ hello-world2:
     docker:
       - image: cimg/node:25.7.0 # the primary container, where your job's commands are run
     steps:
