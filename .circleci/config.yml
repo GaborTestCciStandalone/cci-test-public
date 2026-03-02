@@ -1,7 +1,7 @@
 version: 2.1
 
 jobs:
-  hello-word1:
+  hello-word2:
     docker:
       - image: cimg/node:25.7.0 # the primary container, where your job's commands are run
     steps:
@@ -12,4 +12,4 @@ jobs:
 workflows:
   test-workflow:
     jobs:
-      - hello-world1
+      - hello-world2
