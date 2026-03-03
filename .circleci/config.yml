@@ -6,8 +6,8 @@ jobs:
       - image: cimg/node:25.7.0 # the primary container, where your job's commands are run
     steps:
       - checkout # check out the code in the project directory
-      - run: echo "hell there123345" # run the `echo` command
-      - run: echo "master kenobi!1234534"
+      - run: echo "hell there123345aaaaaa" # run the `echo` command
+      - run: echo "master kenobi!1234534aaaaa"
 
 workflows:
   test-workflow:
